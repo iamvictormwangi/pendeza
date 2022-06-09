@@ -1068,10 +1068,6 @@ p,
   white-space: normal;
 }
 
-.white-space\:wrap {
-  white-space: wrap;
-}
-
 .white-space\:nowrap {
   white-space: nowrap;
 }
@@ -46184,16 +46180,6 @@ table,
     left: auto;
   }
 }
-.h\:max-height,
-.h\:max-height\@phone {
-  height: max-height;
-}
-
-.h\:min-height,
-.h\:min-height\@phone {
-  height: min-height;
-}
-
 .h\:0,
 .h\:0\@phone {
   height: 0;
@@ -46694,8 +46680,8 @@ table,
   height: 90rem;
 }
 
-.h:auto,
-.h:auto\@phone {
+.h\:auto,
+.h\:auto\@phone {
   height: auto;
 }
 
@@ -46785,14 +46771,6 @@ table,
 }
 
 @media (max-width: 21.875rem) {
-  .h\:max-height\@small-phone {
-    height: max-height;
-  }
-
-  .h\:min-height\@small-phone {
-    height: min-height;
-  }
-
   .h\:0\@small-phone {
     height: 0;
   }
@@ -47197,7 +47175,7 @@ table,
     height: 90rem;
   }
 
-  .h:auto\@small-phone {
+  .h\:auto\@small-phone {
     height: auto;
   }
 
@@ -47266,14 +47244,6 @@ table,
   }
 }
 @media (min-width: 38.75rem) and (max-width: 57rem) {
-  .h\:max-height\@tablet {
-    height: max-height;
-  }
-
-  .h\:min-height\@tablet {
-    height: min-height;
-  }
-
   .h\:0\@tablet {
     height: 0;
   }
@@ -47678,7 +47648,7 @@ table,
     height: 90rem;
   }
 
-  .h:auto\@tablet {
+  .h\:auto\@tablet {
     height: auto;
   }
 
@@ -47743,14 +47713,6 @@ table,
   }
 }
 @media (min-width: 57rem) {
-  .h\:max-height\@laptop {
-    height: max-height;
-  }
-
-  .h\:min-height\@laptop {
-    height: min-height;
-  }
-
   .h\:0\@laptop {
     height: 0;
   }
@@ -48155,7 +48117,7 @@ table,
     height: 90rem;
   }
 
-  .h:auto\@laptop {
+  .h\:auto\@laptop {
     height: auto;
   }
 
@@ -48728,8 +48690,8 @@ table,
   min-height: 90rem;
 }
 
-.min-h:auto,
-.min-h:auto\@phone {
+.min-h\:auto,
+.min-h\:auto\@phone {
   min-height: auto;
 }
 
@@ -49218,7 +49180,7 @@ table,
     min-height: 90rem;
   }
 
-  .min-h:auto\@small-phone {
+  .min-h\:auto\@small-phone {
     min-height: auto;
   }
 
@@ -49691,7 +49653,7 @@ table,
     min-height: 90rem;
   }
 
-  .min-h:auto\@tablet {
+  .min-h\:auto\@tablet {
     min-height: auto;
   }
 
@@ -50160,7 +50122,7 @@ table,
     min-height: 90rem;
   }
 
-  .min-h:auto\@laptop {
+  .min-h\:auto\@laptop {
     min-height: auto;
   }
 
@@ -50733,11 +50695,6 @@ table,
   max-height: 90rem;
 }
 
-.max-h:auto,
-.max-h:auto\@phone {
-  max-height: auto;
-}
-
 .max-h\:10\%,
 .max-h\:10\%\@phone {
   max-height: 10%;
@@ -51223,10 +51180,6 @@ table,
     max-height: 90rem;
   }
 
-  .max-h:auto\@small-phone {
-    max-height: auto;
-  }
-
   .max-h\:10\%\@small-phone {
     max-height: 10%;
   }
@@ -51696,10 +51649,6 @@ table,
     max-height: 90rem;
   }
 
-  .max-h:auto\@tablet {
-    max-height: auto;
-  }
-
   .max-h\:10\%\@tablet {
     max-height: 10%;
   }
@@ -52165,10 +52114,6 @@ table,
     max-height: 90rem;
   }
 
-  .max-h:auto\@laptop {
-    max-height: auto;
-  }
-
   .max-h\:10\%\@laptop {
     max-height: 10%;
   }
@@ -52236,16 +52181,6 @@ table,
 .w\:0,
 .w\:0\@phone {
   width: 0;
-}
-
-.w\:max-width,
-.w\:max-width\@phone {
-  width: max-width;
-}
-
-.w\:min-width,
-.w\:min-width\@phone {
-  width: min-width;
 }
 
 .w\:0\.5,
@@ -52748,11 +52683,6 @@ table,
   width: 90rem;
 }
 
-.w:auto,
-.w:auto\@phone {
-  width: auto;
-}
-
 .w\:10\%,
 .w\:10\%\@phone {
   width: 10%;
@@ -52834,14 +52764,6 @@ table,
 }
 
 @media (max-width: 21.875rem) {
-  .w\:max-width\@small-phone {
-    width: max-width;
-  }
-
-  .w\:min-width\@small-phone {
-    width: min-width;
-  }
-
   .w\:0\@small-phone {
     width: 0;
   }
@@ -53246,10 +53168,6 @@ table,
     width: 90rem;
   }
 
-  .w:auto\@small-phone {
-    width: auto;
-  }
-
   .w\:10\%\@small-phone {
     width: 10%;
   }
@@ -53315,14 +53233,6 @@ table,
   }
 }
 @media (min-width: 38.75rem) and (max-width: 57rem) {
-  .w\:max-width\@tablet {
-    width: max-width;
-  }
-
-  .w\:min-width\@tablet {
-    width: min-width;
-  }
-
   .w\:0\@tablet {
     width: 0;
   }
@@ -53727,10 +53637,6 @@ table,
     width: 90rem;
   }
 
-  .w:auto\@tablet {
-    width: auto;
-  }
-
   .w\:10\%\@tablet {
     width: 10%;
   }
@@ -53796,14 +53702,6 @@ table,
   }
 }
 @media (min-width: 57rem) {
-  .w\:max-width\@laptop {
-    width: max-width;
-  }
-
-  .w\:min-width\@laptop {
-    width: min-width;
-  }
-
   .w\:0\@laptop {
     width: 0;
   }
@@ -54206,10 +54104,6 @@ table,
 
   .w\:70\@laptop {
     width: 90rem;
-  }
-
-  .w:auto\@laptop {
-    width: auto;
   }
 
   .w\:10\%\@laptop {
@@ -54780,11 +54674,6 @@ table,
   min-width: 90rem;
 }
 
-.min-w:auto,
-.min-w:auto\@phone {
-  min-width: auto;
-}
-
 .min-w\:10\%,
 .min-w\:10\%\@phone {
   min-width: 10%;
@@ -55270,10 +55159,6 @@ table,
     min-width: 90rem;
   }
 
-  .min-w:auto\@small-phone {
-    min-width: auto;
-  }
-
   .min-w\:10\%\@small-phone {
     min-width: 10%;
   }
@@ -55743,10 +55628,6 @@ table,
     min-width: 90rem;
   }
 
-  .min-w:auto\@tablet {
-    min-width: auto;
-  }
-
   .min-w\:10\%\@tablet {
     min-width: 10%;
   }
@@ -56214,10 +56095,6 @@ table,
 
   .min-w\:70\@laptop {
     min-width: 90rem;
-  }
-
-  .min-w:auto\@laptop {
-    min-width: auto;
   }
 
   .min-w\:10\%\@laptop {
@@ -56788,11 +56665,6 @@ table,
   max-width: 90rem;
 }
 
-.max-w:auto,
-.max-w:auto\@phone {
-  max-width: auto;
-}
-
 .max-w\:10\%,
 .max-w\:10\%\@phone {
   max-width: 10%;
@@ -57278,10 +57150,6 @@ table,
     max-width: 90rem;
   }
 
-  .max-w:auto\@small-phone {
-    max-width: auto;
-  }
-
   .max-w\:10\%\@small-phone {
     max-width: 10%;
   }
@@ -57751,10 +57619,6 @@ table,
     max-width: 90rem;
   }
 
-  .max-w:auto\@tablet {
-    max-width: auto;
-  }
-
   .max-w\:10\%\@tablet {
     max-width: 10%;
   }
@@ -58222,10 +58086,6 @@ table,
 
   .max-w\:70\@laptop {
     max-width: 90rem;
-  }
-
-  .max-w:auto\@laptop {
-    max-width: auto;
   }
 
   .max-w\:10\%\@laptop {

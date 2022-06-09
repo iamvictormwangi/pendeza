@@ -1,0 +1,25 @@
+{
+  "name": "pendeza",
+  "version": "1.0.0",
+  "description": "Lightweight CSS Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkoloni/pendeza.git"
+  },
+  "keywords": [
+    "css",
+    "framework",
+    "sawazisha",
+    "pendeza"
+  ],
+  "author": "mkoloni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mkoloni/pendeza/issues"
+  },
+  "homepage": "https://github.com/mkoloni/pendeza#readme"
+}

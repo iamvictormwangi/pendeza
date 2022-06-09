@@ -24,13 +24,13 @@ It is entirely written in [sass](https://sass-lang.com).
 ###### cdn
 
 ```css
-<link href="https://res.cloudinary.com/mkoloni/raw/upload/v1648297950/pendeza.min_olg0ge.css" rel="stylesheet">
+<link href="https://res.cloudinary.com/mkoloni/raw/upload/v1654776537/pendeza_hkqoex.css" rel="stylesheet">
 ```
 
 
 ###### git clone
 ```sh
-git clone https://github.com/mkoloni/Pendeza.git
+git clone https://github.com/mkoloni/pendeza.git
 ```
 
 ###### npm
