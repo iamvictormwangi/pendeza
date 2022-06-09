@@ -1,0 +1,18 @@
+.carousel
+  width: 100%
+  position: relative
+  min-height: 8rem
+
+  .carousel-item
+    position: absolute
+    height: 100%
+    width: 100%
+    display: none
+
+  .carousel-item.active
+    display: block
+
+  .carousel-slide
+    transition: transform 1.5s ease-out
+    transition-delay: 0.4s
+    transform: translateX(-100%)

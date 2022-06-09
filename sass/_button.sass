@@ -1,0 +1,30 @@
+.btn
+  border: $pendeza-dark solid 0.1rem
+  border-radius: 0.25rem
+  padding: 0.35rem 2.5rem
+  cursor: pointer
+  text-align: center
+
+.btn.btn-link:hover
+  text-decoration: underline
+  -webkit-transition: -webkit-text-decoration 0.5s ease
+  transition: -webkit-text-decoration 0.5s ease
+  transition: text-decoration 0.5s ease
+  transition: text-decoration 0.5s ease, -webkit-text-decoration 0.5s ease
+
+.btn.active
+  background-color: $pendeza-primary
+
+.btn.disabled
+  background-color: $pendeza-muted
+  cursor: not-allowed
+
+.btn-group
+  display: flex
+  flex-wrap: wrap
+  align-items: stretch
+  position: relative
+  overflow: hidden
+
+  .btn.btn-group-item
+    margin: 0

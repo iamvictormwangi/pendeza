@@ -1,0 +1,45 @@
+.label
+  font-size: 100%
+  margin-bottom: 1rem
+
+.input
+  border: 2px solid lighten(black, 15%)
+  border-radius: 5px
+  padding: 8px
+  transition: border-color 0.5s ease-in
+
+.input-success
+  border-color: $pendeza-success
+
+.input-warning
+  border-color: $pendeza-warning
+
+.input-danger
+  border-color: $pendeza-danger
+
+.input.active
+  border-color: $pendeza-primary
+
+.input.disabled
+  border-color: $pendeza-muted
+  cursor: not-allowed
+
+.message-success, .message-error, .message-warning
+  position: absolute
+  display: none
+  visibility: hidden
+
+.message-success
+  color: $pendeza-success
+
+.message-error
+  color: $pendeza-danger-lighten-2
+
+.message-warning
+  color: $pendeza-warning
+
+.message-success.message-show,
+.message-error.message-show,
+.message-warning.message-show
+  display: block
+  visibility: visible
