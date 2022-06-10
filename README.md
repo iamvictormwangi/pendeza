@@ -303,12 +303,12 @@ Modal
     - modal-toggler
 - modal-show
 
-Navbar
-- navbar
-  - navbar-wrapper
-    - navbar-brand
-    - navbar-button
-    - navbar-input
+Panel
+- panel
+  - panel-wrapper
+    - panel-brand
+    - panel-button
+    - panel-input
 
 Notepad
 - notepad

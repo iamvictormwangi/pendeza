@@ -10093,35 +10093,35 @@ ul.pagination li.pagination-item.disabled {
   cursor: not-allowed;
 }
 
-.navbar .navbar-wrapper {
+.panel .panel-wrapper {
   padding-top: 1rem;
   padding-bottom: 1rem;
   display: flex;
   justify-content: space-between;
 }
-.navbar .navbar-wrapper .navbar-brand {
+.panel .panel-wrapper .panel-brand {
   font-weight: 500;
   cursor: pointer;
 }
-.navbar .navbar-wrapper .navbar-button {
+.panel .panel-wrapper .panel-button {
   cursor: pointer;
   margin-bottom: 0;
 }
-.navbar .navbar-wrapper .navbar-button:hover {
+.panel .panel-wrapper .panel-button:hover {
   opacity: 90%;
 }
-.navbar .navbar-wrapper .navbar-input {
+.panel .panel-wrapper .panel-input {
   margin-bottom: 0;
   border-color: #262626;
 }
-.navbar .navbar-wrapper ul {
+.panel .panel-wrapper ul {
   display: flex;
   flex-wrap: wrap;
 }
-.navbar .navbar-wrapper ul li {
+.panel .panel-wrapper ul li {
   cursor: pointer;
 }
-.navbar .navbar-wrapper ul li:not(first-child) {
+.panel .panel-wrapper ul li:not(first-child) {
   margin-left: 2rem;
 }
 
