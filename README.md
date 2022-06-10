@@ -72,7 +72,7 @@ Pendeza is compatible with the following browser.
 
 Alert
 - alert
-  - alert-body
+  - alert-wrapper
     - alert-title
     - alert-subtitle
     - alert-text
@@ -138,7 +138,7 @@ Button
 
 Box
 - box
-  - box-body
+  - box-wrapper
     - box-title
     - box-subtitle
     - box-text
@@ -222,7 +222,7 @@ Float
 
 Footer
 - footer
-  - footer-body
+  - footer-wrapper
     - footer-brand
     - footer-button
     - footer-input
@@ -296,7 +296,7 @@ Margin
 
 Modal
 - modal
-  - modal-body
+  - modal-wrapper
     - modal-title
     - modal-subtitle
     - modal-text
@@ -305,7 +305,7 @@ Modal
 
 Navbar
 - navbar
-  - navbar-body
+  - navbar-wrapper
     - navbar-brand
     - navbar-button
     - navbar-input
@@ -317,7 +317,7 @@ Notepad
 
 Notification
 - notification
-  - notification-body
+  - notification-wrapper
     - notification-title
     - notification-subtitle
     - notification-text
