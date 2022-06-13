@@ -23,10 +23,14 @@ It is entirely written in [sass](https://sass-lang.com).
 
 ###### cdn
 
+pendeza.min.css
 ```css
 <link href="https://res.cloudinary.com/mkoloni/raw/upload/v1654776537/pendeza_hkqoex.css" rel="stylesheet">
 ```
-
+pendeza.css
+```css
+<link href="https://res.cloudinary.com/mkoloni/raw/upload/v1654776537/pendeza_hkqoex.css" rel="stylesheet">
+```
 
 ###### git clone
 ```sh
@@ -37,12 +41,6 @@ git clone https://github.com/mkoloni/pendeza.git
 ```sh
 npm install pendeza
 ```
-
-###### yarn
-```sh
-yarn add pendeza
-```
-
 ---
 
 ### Example
