@@ -247,8 +247,6 @@ Pendeza Grid
   - column:8
 
 Height
-- h:max-height
-- h:min-height
 - h:0
 - h:0.5
 - h:30
@@ -481,8 +479,6 @@ Top
 - top:auto
 
 Width
-- w-max:content
-- w-min:content
 - w:0
 - w:0.5
 - w:30
