@@ -45,12 +45,16 @@ npm install pendeza
 
 ### Example
 
+Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet.
+
 sample:
 
 ```html
-<div class="red text-green">
-    <p class="lead text-align-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-</div>
+<header class="wrapper backg-color:purple">
+  <h1 class="title text-transform:capitalize">Lorem</h1>
+  <p class="lead-text color:green"> Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. </p>
+  <button class="btn">lorem</button>
+</header>
 ```
 ---
 
