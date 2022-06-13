@@ -25,11 +25,11 @@ It is entirely written in [sass](https://sass-lang.com).
 
 pendeza.min.css
 ```css
-<link href="https://res.cloudinary.com/mkoloni/raw/upload/v1654776537/pendeza_hkqoex.css" rel="stylesheet">
+<link href="https://res.cloudinary.com/mkoloni/raw/upload/v1655138017/pendeza.min_blg6lh.css" rel="stylesheet">
 ```
 pendeza.css
 ```css
-<link href="https://res.cloudinary.com/mkoloni/raw/upload/v1654776537/pendeza_hkqoex.css" rel="stylesheet">
+<link href="https://res.cloudinary.com/mkoloni/raw/upload/v1655138032/pendeza_enzzls.css" rel="stylesheet">
 ```
 
 ###### git clone
