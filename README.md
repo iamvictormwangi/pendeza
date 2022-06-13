@@ -258,8 +258,6 @@ Height
 - h:100vh
 - h:125vh
 - h:150vh
-- max-h:0
-- min-h:0
 
 Left
 - left:auto
@@ -490,8 +488,6 @@ Width
 - w:100vw
 - w:125vw
 - w:150vw
-- max-w:0
-- min-w:0
 
 Wrapper
 - wrapper
