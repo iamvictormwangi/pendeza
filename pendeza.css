@@ -646,6 +646,36 @@ p,
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.font-family\:roboto {
+  @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Montserrat&family=Oswald&family=Poppins&family=Roboto&display=swap");
+  font-family: "Roboto", sans-serif;
+}
+
+.font-family\:montserrat {
+  @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Montserrat&family=Oswald&family=Poppins&family=Roboto&display=swap");
+  font-family: "Montserrat", sans-serif;
+}
+
+.font-family\:lato {
+  @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Montserrat&family=Oswald&family=Poppins&family=Roboto&display=swap");
+  font-family: "Lato", sans-serif;
+}
+
+.font-family\:poppins {
+  @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Montserrat&family=Oswald&family=Poppins&family=Roboto&display=swap");
+  font-family: "Poppins", sans-serif;
+}
+
+.font-family\:oswald {
+  @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Montserrat&family=Oswald&family=Poppins&family=Roboto&display=swap");
+  font-family: "Oswald", sans-serif;
+}
+
+.font-family\:dancing_script {
+  @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Montserrat&family=Oswald&family=Poppins&family=Roboto&display=swap");
+  font-family: "Dancing Script", cursive;
+}
+
 .font-size\:0\.5 {
   font-size: 0.5rem !important;
 }
