@@ -432,6 +432,12 @@ Text
 - font-family:serif
 - font-family:helvetica
 - font-family:monospace
+- font-family:roboto
+- font-family:montserrat
+- font-family:lato
+- font-family:poppins
+- font-family:oswald
+- font-family:dancing_script
 - font-size:0.5
 - font-size:3
 - text-align:left
