@@ -52,7 +52,7 @@ sample:
 ```html
 <header class="wrapper backg-color:purple">
   <h1 class="title text-transform:capitalize">Lorem</h1>
-  <p class="lead-text color:green"> Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. </p>
+  <p class="lead-text color:green font-family:lato"> Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. </p>
   <button class="btn">lorem</button>
 </header>
 ```
