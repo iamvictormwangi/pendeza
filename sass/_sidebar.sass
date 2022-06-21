@@ -7,27 +7,32 @@
   z-index: 1000
   transition: left 0.7s ease-in
 
-  .sidebar-title
-    font-weight: inherit
-    font-size: 1.15rem
+  .sidebar-wrapper
+    padding: 1rem 0.8rem
+    padding-top: 1rem
+    border-bottom: 2px solid lightgrey
 
-  .sidebar-subtitle
-    font-weight: inherit
-    font-size: 1rem
+    .sidebar-title
+      font-weight: inherit
+      font-size: 1.15rem
 
-  .sidebar-toggler
-    position: absolute
-    font-weight: 900
-    font-size: 3rem
-    right: 10px
-    top: 7px
-    font-size: 24px
-    cursor: pointer
-    content: "x"
-    color: lighten(black, 15%)
+    .sidebar-subtitle
+      font-weight: inherit
+      font-size: 1rem
 
-  .sidebar-toggler:hover
-    color: darken(red, 40)
+    .sidebar-toggler
+      position: absolute
+      font-weight: 900
+      font-size: 3rem
+      right: 10px
+      top: 7px
+      font-size: 24px
+      cursor: pointer
+      content: "x"
+      color: lighten(black, 15%)
+
+    .sidebar-toggler:hover
+      color: darken(red, 40)
 
 .sidebar.sidebar-show
   left: 2px

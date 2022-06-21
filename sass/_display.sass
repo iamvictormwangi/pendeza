@@ -30,7 +30,7 @@
 .dis\:table\@phone
   display: table !important
 
-@media (max-width: $pendeza-small-phone-max-width)
+@media (max-width: var(--pendeza-small-phone-max-width))
   .dis\:block\@small-phone
     display: block !important
 
@@ -55,7 +55,7 @@
   .dis\:table\@small-phone
     display: table !important
 
-@media (min-width: $pendeza-tablet-min-width) and (max-width: $pendeza-tablet-max-width)
+@media (min-width: var(--pendeza-tablet-min-width)) and (max-width: var(--pendeza-tablet-max-width))
   .dis\:block\@tablet
     display: block !important
 
@@ -80,7 +80,7 @@
   .dis\:table\@tablet
     display: table !important
 
-@media (min-width: $pendeza-laptop-min-width)
+@media (min-width: var(--pendeza-laptop-min-width))
   .dis\:block\@laptop
     display: block !important
 

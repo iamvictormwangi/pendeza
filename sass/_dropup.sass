@@ -9,7 +9,7 @@
     bottom: 1.5rem
     transition: all 0.5s ease
     margin-top: 0.5rem
-    box-shadow: $pendeza-shadow
+    box-shadow: var(--pendeza-shadow)
     z-index: 1500
     display: none
     opacity: 0
@@ -24,7 +24,7 @@
       padding-left: 0.5rem
 
     li.dropup-item:not(last-child)
-      border-bottom: 0.15px $pendeza-dark solid
+      border-bottom: 0.15px var(--pendeza-dark solid)
 
   ul.dropup.dropup-show
     opacity: 1
@@ -32,4 +32,4 @@
     display: block
 
   ul.dropup:hover
-    box-shadow: $pendeza-shadow-large
+    box-shadow: var(--pendeza-shadow-large)

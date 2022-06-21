@@ -46,7 +46,7 @@
 .overflow-y\:auto\@phone
   overflow-y: auto
 
-@media (max-width: $pendeza-small-phone-max-width)
+@media (max-width: var(--pendeza-small-phone-max-width))
   .overflow\:scroll\@small-phone
     overflow: scroll
 
@@ -83,7 +83,7 @@
   .overflow-y\:auto\@small-phone
     overflow-y: auto
 
-@media (min-width: $pendeza-tablet-min-width) and (max-width: $pendeza-tablet-max-width)
+@media (min-width: var(--pendeza-tablet-min-width)) and (max-width: var(--pendeza-tablet-max-width))
   .overflow\:scroll\@tablet
     overflow: scroll
 
@@ -120,7 +120,7 @@
   .overflow-y\:auto\@tablet
     overflow-y: auto
 
-@media (min-width: $pendeza-laptop-min-width)
+@media (min-width: var(--pendeza-laptop-min-width))
   .overflow\:scroll\@laptop
     overflow: scroll
 

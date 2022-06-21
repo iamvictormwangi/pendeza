@@ -4,6 +4,12 @@ h3,
 h4,
 h5,
 h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
 .title,
 .subtitle,
 p,
@@ -3109,7 +3115,7 @@ table,
   margin-right: auto
   margin-left: auto
 
-@media (max-width: $pendeza-small-phone-max-width)
+@media (max-width: var(--pendeza-small-phone-max-width))
   .m\:0\@small-phone
     margin: 0
 
@@ -5456,7 +5462,7 @@ table,
     margin-right: auto
     margin-left: auto
 
-@media (min-width: $pendeza-tablet-min-width) and (max-width: $pendeza-tablet-max-width)
+@media (min-width: var(--pendeza-tablet-min-width)) and (max-width: var(--pendeza-tablet-max-width))
   .m\:0\@tablet
     margin: 0
 
@@ -7803,7 +7809,7 @@ table,
     margin-right: auto
     margin-left: auto
 
-@media (min-width: $pendeza-laptop-min-width)
+@media (min-width: var(--pendeza-laptop-min-width))
   .m\:0\@laptop
     margin: 0
 
