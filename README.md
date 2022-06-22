@@ -400,17 +400,17 @@ Right
 - right:100%
 
 Shadow
-- box-shadow
-- box-shadow:extrasmallX2
-- box-shadow:extrasmall
-- box-shadow:small
-- box-shadow:medium
-- box-shadow:large
-- box-shadow:extralarge
-- box-shadow:extralargeX2
-- box-shadow:none
-- box-shadow:large:hover
-- box-shadow:large:focus
+- shadow
+- shadow:extrasmallX2
+- shadow:extrasmall
+- shadow:small
+- shadow:medium
+- shadow:large
+- shadow:extralarge
+- shadow:extralargeX2
+- shadow:none
+- shadow:large:hover
+- shadow:large:focus
 
 Sidebar
 - sidebar
